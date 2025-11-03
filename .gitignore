@@ -8,4 +8,10 @@ coverage
 dist
 tmp
 
+# Documents (ignore Word/PDF)
+*.pdf
+*.docx
+Taller-02.pdf
+Taller-02.docx
+
 
