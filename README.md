@@ -1,5 +1,7 @@
 # Pokeneas Pokedex
 
+![CI](https://github.com/joseduquep/pokeneas/actions/workflows/docker-publish.yml/badge.svg)
+
 Aplicación Express que expone una Pokédex de Pokeneas (Pokémon paisas) con énfasis en prácticas de contenedores y CI/CD. Incluye rutas JSON y HTML, empaquetado Docker y workflow de GitHub Actions listo para publicar imágenes en DockerHub.
 
 ## Requisitos
