@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokenea Aleatoria</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="card">
+        <h1 class="card__title"><%= name %></h1>
+        <img class="card__image" src="<%= image %>" alt="Imagen de <%= name %>" />
+        <blockquote class="card__phrase">“<%= philosophicalPhrase %>”</blockquote>
+      </section>
+      <section class="meta">
+        <p>Contenedor: <span class="meta__value"><%= containerId %></span></p>
+      </section>
+    </main>
+  </body>
+</html>
+
+
